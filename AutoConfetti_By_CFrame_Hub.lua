@@ -4,7 +4,7 @@ function TP(Point)
 --	repeat
 	Char.Humanoid:ChangeState(15)
 	Char.HumanoidRootPart.CFrame = Point
-	wait()
+	wait(3)
 	Char.HumanoidRootPart.CFrame = Point
 --	until (Char.HumanoidRootPart.Position - Point.Position).Magnitude <= 20
 end
@@ -12,7 +12,7 @@ function BTP(Pos)
 	local Ply = game.Players.LocalPlayer
 	local Char = Ply.Character
 	Char.HumanoidRootPart.CFrame = Pos
-	wait()
+	wait(3)
 	Char.HumanoidRootPart.CFrame = Pos
 end
 
